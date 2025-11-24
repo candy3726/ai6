@@ -45,7 +45,7 @@ if "last_prediction" not in st.session_state:
 # ======================
 # 모델 로드
 # ======================
-FILE_ID = st.secrets.get("GDRIVE_FILE_ID", "1uj2lD8goJDLo9uSg_8HcT4bxnl2trPc8")
+FILE_ID = st.secrets.get("GDRIVE_FILE_ID", "1UJLRtCmuDah-ef4QCdIZKtVLtdtvJS1m")
 MODEL_PATH = st.secrets.get("MODEL_PATH", "model.pkl")
 
 @st.cache_resource
@@ -74,6 +74,11 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
     #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
     # },
+    labels[0] : {"texts" : ["중국식 냉면은 시원해"], "images" : ["https://img.daily.co.kr/@files/www.daily.co.kr/content/food/2020/20200702/0ad668af2086b2ffdcf7bf7023a109a4.jpg"]},
+    labels[1] : {"texts" : ["짜장면은 달콤해 "], "images" : ["https://i.namu.wiki/i/j2AxLP9AtrcJebh4DVfGxowfXwI3a95dG_YZb_Ktczc6Ca7ACyd_NJL3YHQMw8SABGTQiJDwSpySOSSBLZVEZw.webp"]},
+    labels[2] : {"texts" : ["짬뽕은 얼큰해"], "images" : ["https://recipe1.ezmember.co.kr/cache/recipe/2017/06/19/2756808e5603db7a18c4f5ee9a699ee41.jpg"]},
+    labels[3] : {"texts" : ["탕수육은 바삭해"], "images" : ["https://recipe1.ezmember.co.kr/cache/recipe/2018/07/12/12221690d4f7dc3e0bbdc70d05017b101.jpg"]},
+
 }
 
 # ======================
