@@ -77,7 +77,7 @@ CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     labels[0] : {"texts" : ["중국식 냉면은 시원해"], "images" : ["https://img.daily.co.kr/@files/www.daily.co.kr/content/food/2020/20200702/0ad668af2086b2ffdcf7bf7023a109a4.jpg"]},
     labels[1] : {"texts" : ["짜장면은 달콤해 "], "images" : ["https://i.namu.wiki/i/j2AxLP9AtrcJebh4DVfGxowfXwI3a95dG_YZb_Ktczc6Ca7ACyd_NJL3YHQMw8SABGTQiJDwSpySOSSBLZVEZw.webp"]},
     labels[2] : {"texts" : ["짬뽕은 얼큰해"], "images" : ["https://recipe1.ezmember.co.kr/cache/recipe/2017/06/19/2756808e5603db7a18c4f5ee9a699ee41.jpg"]},
-    labels[3] : {"texts" : ["탕수육은 바삭해"], "images" : ["https://recipe1.ezmember.co.kr/cache/recipe/2018/07/12/12221690d4f7dc3e0bbdc70d05017b101.jpg"]}
+    labels[3] : {"texts" : ["탕수육은 바삭해"], "images" : ["https://blog.kakaocdn.net/dna/c4HaxQ/btrnE9gp8v2/AAAAAAAAAAAAAAAAAAAAALYXynqg2oROb1vdKbvrPx8fd4lwf53xCt9EXVYbLeQC/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1764514799&allow_ip=&allow_referer=&signature=VZt%2Fo012QdEuR9Sg0F3gcHM6MtY%3D"]},
 
 }
 
